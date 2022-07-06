@@ -79,9 +79,12 @@ void Dir()
 {
 	//Запросим ПУТЬ (например, папка Temp на диске C, 
 	//запишется таким вот образом: c:\temp\)
-	char path[70];
-	cout << "\nEnter full path (for example, C:\\):";
-	cin >> path;
+	char path[70]= "U:\\oop16\\oop16\\";
+	/*cout << "\nEnter full path (for example, C:\\):";
+	cin >> path;*/
+
+
+
 	//Запросим маску файлов
 	char mask[15];
 	cout << "\nEnter mask (for example, *.* or *.txt):";
